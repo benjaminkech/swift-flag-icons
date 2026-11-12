@@ -1,0 +1,5 @@
+# Swift Package Index: which targets to build documentation for
+version: 1
+builder:
+  configs:
+    - documentation_targets: [FlagIconsCore, CircleFlagArtwork, SquareFlagArtwork]
