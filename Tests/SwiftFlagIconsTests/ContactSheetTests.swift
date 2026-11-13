@@ -6,7 +6,7 @@ import SwiftFlagIcons
 /// Draws every flag of a style into one picture, to look through after the artwork was updated:
 /// an asset catalog doesn't draw everything an SVG can say, and nothing but eyes tells.
 ///
-///     FLAG_CONTACT_SHEETS=/tmp/flags xcodebuild test -scheme SwiftFlagIcons-Package -destination 'platform=macOS'
+///     FLAG_CONTACT_SHEETS=/tmp/flags xcodebuild test -scheme swift-flag-icons-Package -destination 'platform=macOS'
 ///
 /// Skipped unless the folder to write to is given. Needs the asset catalog compiled, so Xcode.
 @Suite("Contact sheets", .enabled(if: ContactSheets.folder != nil, "Set FLAG_CONTACT_SHEETS to a folder"))

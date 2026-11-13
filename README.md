@@ -1,7 +1,7 @@
 # SwiftFlagIcons
 
-[![Swift versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fbenjaminkech%2FSwiftFlagIcons%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/benjaminkech/SwiftFlagIcons)
-[![Platforms](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fbenjaminkech%2FSwiftFlagIcons%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/benjaminkech/SwiftFlagIcons)
+[![Swift versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fbenjaminkech%2FSwiftFlagIcons%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/benjaminkech/swift-flag-icons)
+[![Platforms](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fbenjaminkech%2FSwiftFlagIcons%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/benjaminkech/swift-flag-icons)
 
 Country and region flags for SwiftUI, as vector icons in a circle, a square or a rounded square.
 
@@ -26,7 +26,7 @@ In Xcode, choose File › Add Package Dependencies and enter the repository's UR
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/benjaminkech/SwiftFlagIcons.git", from: "1.0.0")
+    .package(url: "https://github.com/benjaminkech/swift-flag-icons.git", from: "1.0.0")
 ]
 ```
 
@@ -165,7 +165,7 @@ The script explains what it changes in each file and why. Then look through ever
 asset catalog doesn't draw everything an SVG can say:
 
 ```bash
-TEST_RUNNER_FLAG_CONTACT_SHEETS=/tmp/flags xcodebuild test -scheme SwiftFlagIcons-Package -destination 'platform=macOS'
+TEST_RUNNER_FLAG_CONTACT_SHEETS=/tmp/flags xcodebuild test -scheme swift-flag-icons-Package -destination 'platform=macOS'
 ```
 
 ## Tests
@@ -174,7 +174,7 @@ TEST_RUNNER_FLAG_CONTACT_SHEETS=/tmp/flags xcodebuild test -scheme SwiftFlagIcon
 it compiled, which only Xcode does:
 
 ```bash
-xcodebuild test -scheme SwiftFlagIcons-Package -destination 'platform=macOS'
+xcodebuild test -scheme swift-flag-icons-Package -destination 'platform=macOS'
 ```
 
 ## License

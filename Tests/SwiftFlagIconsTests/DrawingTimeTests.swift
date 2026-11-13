@@ -13,7 +13,7 @@ import UIKit
 /// `--declared-size 40`, which stores a bitmap at that size, run this, and import them again
 /// without it:
 ///
-///     TEST_RUNNER_FLAG_TIMING=1 xcodebuild test -scheme SwiftFlagIcons-Package \
+///     TEST_RUNNER_FLAG_TIMING=1 xcodebuild test -scheme swift-flag-icons-Package \
 ///         -destination 'platform=iOS,name=<your iPhone>' -only-testing:SwiftFlagIconsTests/DrawingTimeTests
 ///
 /// Run it on a device: a simulator draws with the Mac's processor. Skipped unless asked for.

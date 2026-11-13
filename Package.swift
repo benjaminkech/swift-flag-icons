@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftFlagIcons",
+    name: "swift-flag-icons",
     defaultLocalization: "en",
     platforms: [
         .iOS(.v15),
