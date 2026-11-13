@@ -1,7 +1,7 @@
-# SwiftFlagIcons
+# Swift Flag Icons
 
-[![Swift versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fbenjaminkech%2FSwiftFlagIcons%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/benjaminkech/swift-flag-icons)
-[![Platforms](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fbenjaminkech%2FSwiftFlagIcons%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/benjaminkech/swift-flag-icons)
+[![Swift versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fbenjaminkech%2Fswift-flag-icons%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/benjaminkech/swift-flag-icons)
+[![Platforms](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fbenjaminkech%2Fswift-flag-icons%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/benjaminkech/swift-flag-icons)
 
 Country and region flags for SwiftUI, as vector icons in a circle, a square or a rounded square.
 

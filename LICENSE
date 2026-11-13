@@ -22,7 +22,7 @@ SOFTWARE.
 
 ---
 
-The flag artwork in Sources/SwiftFlagIcons/Resources is not covered by the
+The flag artwork in Sources/CircleFlagArtwork/Resources and Sources/SquareFlagArtwork/Resources is not covered by the
 notice above. It comes from two projects, each under its own MIT license,
 reproduced in the Licenses folder:
 
