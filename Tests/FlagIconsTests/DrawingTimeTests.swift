@@ -14,7 +14,7 @@ import UIKit
 /// without it:
 ///
 ///     TEST_RUNNER_FLAG_TIMING=1 xcodebuild test -scheme swift-flag-icons-Package \
-///         -destination 'platform=iOS,name=<your iPhone>' -only-testing:SwiftFlagIconsTests/DrawingTimeTests
+///         -destination 'platform=iOS,name=<your iPhone>' -only-testing:FlagIconsTests/DrawingTimeTests
 ///
 /// Run it on a device: a simulator draws with the Mac's processor. Skipped unless asked for.
 @Suite("Drawing time", .serialized, .enabled(if: DrawingTime.isRequested, "Set FLAG_TIMING=1"))

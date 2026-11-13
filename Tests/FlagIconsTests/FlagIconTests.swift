@@ -1,6 +1,6 @@
 import Foundation
 import Testing
-import SwiftFlagIcons
+import FlagIcons
 
 #if canImport(UIKit)
 import UIKit

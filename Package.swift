@@ -16,7 +16,7 @@ let package = Package(
     // an app that only shows circles neither builds nor ships the squares.
     products: [
         // Circles and squares; a flag is a circle unless a style says otherwise
-        .library(name: "SwiftFlagIcons", targets: ["SwiftFlagIcons"]),
+        .library(name: "FlagIcons", targets: ["FlagIcons"]),
         // Circles only
         .library(name: "CircleFlagIcons", targets: ["CircleFlagIcons"]),
         // Squares and rounded squares only; a flag is a square unless a style says otherwise
@@ -41,9 +41,9 @@ let package = Package(
         // What an app imports: the core, the artwork, and the style a flag has by default
         .target(name: "CircleFlagIcons", dependencies: ["FlagIconsCore", "CircleFlagArtwork"]),
         .target(name: "SquareFlagIcons", dependencies: ["FlagIconsCore", "SquareFlagArtwork"]),
-        .target(name: "SwiftFlagIcons", dependencies: ["FlagIconsCore", "CircleFlagArtwork", "SquareFlagArtwork"]),
+        .target(name: "FlagIcons", dependencies: ["FlagIconsCore", "CircleFlagArtwork", "SquareFlagArtwork"]),
 
-        .testTarget(name: "SwiftFlagIconsTests", dependencies: ["SwiftFlagIcons", "FlagIconsCore", "CircleFlagArtwork", "SquareFlagArtwork"]),
+        .testTarget(name: "FlagIconsTests", dependencies: ["FlagIcons", "FlagIconsCore", "CircleFlagArtwork", "SquareFlagArtwork"]),
         .testTarget(name: "CircleFlagIconsTests", dependencies: ["CircleFlagIcons"]),
         .testTarget(name: "SquareFlagIconsTests", dependencies: ["SquareFlagIcons"])
     ]

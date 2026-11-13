@@ -1,7 +1,7 @@
 import Foundation
 import SwiftUI
 import Testing
-import SwiftFlagIcons
+import FlagIcons
 
 /// Draws every flag of a style into one picture, to look through after the artwork was updated:
 /// an asset catalog doesn't draw everything an SVG can say, and nothing but eyes tells.

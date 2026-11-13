@@ -6,7 +6,7 @@
 Country and region flags for SwiftUI, as vector icons in a circle, a square or a rounded square.
 
 ```swift
-import SwiftFlagIcons
+import FlagIcons
 
 FlagIcon("CH")
 ```
@@ -26,9 +26,12 @@ In Xcode, choose File › Add Package Dependencies and enter the repository's UR
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/benjaminkech/swift-flag-icons.git", from: "1.0.0")
+    .package(url: "https://github.com/benjaminkech/swift-flag-icons.git", from: "2.0.0")
 ]
 ```
+
+Upgrading from 1.x: the `SwiftFlagIcons` library is now `FlagIcons`. Change the product name in
+your target's dependencies and `import FlagIcons`. Nothing else changed.
 
 Then add one of its three libraries to your target. They are the same `FlagIcon` with different
 artwork, so pick by the shapes you show:
@@ -37,7 +40,7 @@ artwork, so pick by the shapes you show:
 |---|---|---|
 | `CircleFlagIcons` | circle | a circle |
 | `SquareFlagIcons` | square, rounded square | a square |
-| `SwiftFlagIcons` | all of them | a circle |
+| `FlagIcons` | all of them | a circle |
 
 Import the one you added, and nothing else:
 
@@ -72,10 +75,10 @@ List(countries) { country in
 
 | Style | | Comes with |
 |---|---|---|
-| `.circle` | | `CircleFlagIcons`, `SwiftFlagIcons` |
-| `.square` | | `SquareFlagIcons`, `SwiftFlagIcons` |
-| `.roundedSquare` | Corners like an app icon's | `SquareFlagIcons`, `SwiftFlagIcons` |
-| `.roundedSquare(cornerFraction:)` | Corners of your choosing, as a share of the side | `SquareFlagIcons`, `SwiftFlagIcons` |
+| `.circle` | | `CircleFlagIcons`, `FlagIcons` |
+| `.square` | | `SquareFlagIcons`, `FlagIcons` |
+| `.roundedSquare` | Corners like an app icon's | `SquareFlagIcons`, `FlagIcons` |
+| `.roundedSquare(cornerFraction:)` | Corners of your choosing, as a share of the side | `SquareFlagIcons`, `FlagIcons` |
 
 ### Size
 
@@ -133,7 +136,7 @@ What a library adds to an app, as delivered to one device:
 |---|---|---|
 | `CircleFlagIcons` | 542 KB | 0.7 MB |
 | `SquareFlagIcons` | 482 KB | 0.6 MB |
-| `SwiftFlagIcons` | 1.02 MB | 1.2 MB |
+| `FlagIcons` | 1.02 MB | 1.2 MB |
 
 The artwork is each set's compiled asset catalog, measured for an iPhone. The code is roughly
 150 KB before the linker strips what an app doesn't use, the same whichever library is chosen.

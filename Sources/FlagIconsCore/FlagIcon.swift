@@ -31,7 +31,7 @@ public struct FlagIcon: View {
     /// The flag of the region with this code, in the given style unless the environment sets one.
     ///
     /// The modules with artwork add `init(_:)`, which leaves the style out: a circle with
-    /// `CircleFlagIcons` and `SwiftFlagIcons`, a square with `SquareFlagIcons`. This is the one
+    /// `CircleFlagIcons` and `FlagIcons`, a square with `SquareFlagIcons`. This is the one
     /// to use with artwork of your own.
     ///
     /// - Parameter regionCode: ISO 3166-1 alpha-2, such as "CH", in either case.
